@@ -316,3 +316,21 @@ div#img12 {
   height: 100vh;                  /* Altura da tela inteira */
   width: 100%;
 }
+
+.footer {
+    background: #012b62; /* cor de fundo */
+    color: #fff;      /* cor do texto */
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 14px;
+  }
+
+  .footer a {
+    color: #3B9AE1; /* link azul */
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+  }
