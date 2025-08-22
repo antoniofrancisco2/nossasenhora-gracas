@@ -307,3 +307,12 @@ div#propst p {
   font-size: 1.1rem;
   color: #775305;
 }
+
+div#img12 {
+  background-image: url('../img/Dia\ De\ Nossa\ Senhora\ Das\ Graças\ 27\ De\ Novembro\ Criativo\ Azul\ E\ Branco\ Story\ Do\ Instagram\ .png');
+  background-size: cover;         /* Cobre toda a área */
+  background-position: center;    /* Centraliza a imagem */
+  background-repeat: no-repeat;   /* Evita repetição */
+  height: 100vh;                  /* Altura da tela inteira */
+  width: 100%;
+}
