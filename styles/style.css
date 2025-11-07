@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@0,400..700;1,400..700&display=swap');
+
 :root {
+  --font01: "Josefin Sans", sans-serif;
+  --font02: "Finlandica", sans-serif;
+
   --cor1: #1f5f74; /*Cor Titulo*/
   --cor2: #103D64; /*Cor Textos*/
 
@@ -158,11 +164,13 @@ div#img11 {
       padding: 25px;
       color: #A57A1F;
       font-size: 1.7rem;
+      font-family: var(--font01);
       text-align: center;
     }
 
     div#secorig p {
       padding: 20px;
+      font-family: var(--font02);
       font-size: 1.1rem;
       color: var(--cor2);
     }
@@ -195,6 +203,7 @@ div#sobrecat {
 
 .container p {
   padding: 0px 10px 0px 0px;
+  font-family: var(--font02);
   color: var(--cor2);
   text-align: justify;
 }
@@ -203,6 +212,7 @@ div#sobrecat h1{
   padding: 25px;
   color: #A57A1F;
   font-size: 1.7rem;
+  font-family: var(--font01);
   text-align: center;
 }
 
@@ -218,12 +228,14 @@ div#trib {
 div#trib h1 {
   padding-bottom: 50px;
   color: #E8A64C;
+  font-family: var(--font01);
   font-size: 1.7rem;
   text-align: center;
 }
 
 div#trib p {
   padding-bottom: 20px;
+  font-family: var(--font02);
 }
 
 div#transf {
@@ -235,6 +247,7 @@ div#transf {
 div#transf h1 {
   padding: 10px;
   color: #E8A64C;
+  font-family: var(--font01);
   font-size: 1.7rem;
   text-align: center;
   padding-bottom: 50px;
@@ -242,6 +255,7 @@ div#transf h1 {
 
 div#transf p {
   color: white;
+  font-family: var(--font02);
   padding-bottom: 20px;
 }
 
@@ -252,6 +266,7 @@ span.negrito2 {
 
 div#signmdl h1 {
   padding: 30px  0px 45px 15px;
+  font-family: var(--font01);
   font-size: 1.7rem;
   color: var(--cor1);
 }
@@ -265,6 +280,7 @@ div#signmdl {
 div#signmdl p {
   padding: 10px;
   font-size: 1.1rem;
+  font-family: var(--font02);
   color: var(--cor2);
 }
 
@@ -276,6 +292,7 @@ div#ptdtrs {
 
 div#ptdtrs h1 {
   padding: 50px  0px 10px 15px;
+  font-family: var(--font01);
   font-size: 1.7rem;
   color: var(--cor1);
 }
@@ -283,6 +300,7 @@ div#ptdtrs h1 {
 div#ptdtrs p {
   padding: 10px;
   font-size: 1.1rem;
+  font-family: var(--font02);
   color: var(--cor2);
 }
 
@@ -298,6 +316,7 @@ div#propst {
 
 div#propst h1{
   padding: 50px  0px 10px 15px;
+  font-family: var(--font01);
   font-size: 1.7rem;
   color: var(--cor1);
 }
@@ -305,7 +324,8 @@ div#propst h1{
 div#propst p {
   padding: 10px;
   font-size: 1.1rem;
-  color: #775305;
+  font-family: var(--font02);
+  color: var(--cor2);
 }
 
 div#img12 {
